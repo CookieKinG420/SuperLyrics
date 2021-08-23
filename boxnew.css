@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+
+.boxnew{
+    width: 30%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: absolute;
+    top: 180%;
+    left: 50%;
+	bottom: 50%;
+    transform: translate(-50%,-50%);
+    background: #ffffff;
+    text-align: center;
+	border-radius: 5px;
+	box-shadow: 0 5px 15px rgba(0,0,0,.5);
+}
+@media only screen and (min-width: 375px) and (max-width: 812px) {
+    .box{    
+        padding-top: 60px;
+		padding-bottom: 60px;}
+
+  
+.imgBx
+{
+	width: 100%;
+}
+	.imgBx:hover{
+		box-shadow: 0 15px 30px rgba(0,0,0,.5);
+		transition: 0.5s
+	}
+.imgBx img{
+	max-width: 100%;
+	border-radius: 5px;
+		box-shadow: 0 5px 15px rgba(0,0,0,.5);
+
+}
+.content
+{
+	padding-left: 20px;
+}
+.content h2
+{
+	margin: 0;
+	padding-right: 0;
+	color: #000000;
+	font-size: 30px;
+	font-family: serif;
+}
+.content h4
+{
+	margin: 0;
+	padding: 10px 0 0;
+	text-align: center;
+	font-size: 15px;
+	font-family: serif;
+}
+	.responsive {
+  width: 100%;
+		height: auto;
+	}
+	
+	.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+	
+	.content h5{
+		font-family: serif;
+	}
+	.content p{
+		font-family: serif;
+	}
+.dropdown {     background-color: #e7e7e7;  }
